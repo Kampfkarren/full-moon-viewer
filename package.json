@@ -1,0 +1,23 @@
+{
+  "name": "full-moon-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "@parcel/transformer-toml": "^2.7.0",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "buffer": "^6.0.3",
+    "parcel": "^2.7.0",
+    "parcel-plugin-wasm.rs": "^1.3.0",
+    "process": "^0.11.10",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.4.6",
+    "monaco-editor": "^0.31.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
