@@ -4,7 +4,7 @@
   "description": "",
   "license": "MPL-2.0",
   "scripts": {
-    "build": "npx parcel build src/index.html --no-minify --out-dir build"
+    "build": "parcel build src/index.html --no-minify --out-dir build"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
