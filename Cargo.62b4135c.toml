@@ -1,0 +1,18 @@
+[package]
+name = "full-moon-extract"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# full_moon = { version = "0.16.2", features = ["roblox", "serde", "lua52", "lua53", "lua54"] }
+full_moon = { git = "https://github.com/Kampfkarren/full-moon", branch = "extra-serde", features = ["roblox", "serde", "lua52", "lua53", "lua54"] }
+serde = { version = "1.0.145", features = ["derive"] }
+serde-wasm-bindgen = "0.4.3"
+wasm-bindgen = "0.2.83"
+wee_alloc = "0.4.5"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+opt-level = "s"
