@@ -3726,4 +3726,4 @@ __exports. __wbindgen_throw = function(arg0, arg1) {
 },{"fs":"rDCW"}],0:[function(require,module,exports) {
 var b=require("TUK3");b.register("wasm",require("fISM"));b.load([["full_moon_extract_bg.20ebd30b.wasm","lxph"]]).then(function(){require("LaST");});
 },{}]},{},[0], null)
-//# sourceMappingURL=/main.7f51bb98.js.map
+//# sourceMappingURL=main.7f51bb98.js.map
